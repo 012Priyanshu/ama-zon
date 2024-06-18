@@ -23,7 +23,6 @@ import img22 from './photos/img22.webp'
 import img23 from './photos/img23.webp'
 import img24 from './photos/img24.webp'
 import img25 from './photos/img25.jpg'
-import { Link } from 'react-router-dom';
 
 
  const main=()=> {
@@ -59,7 +58,7 @@ import { Link } from 'react-router-dom';
           <br />
           <span className="badge text-bg-danger">Limited Time Deal</span>
           <br />
-          <Link to="/" className="btn btn-light my-3">see more</Link>
+          <a href="/" className="btn btn-light my-3">see more</a>
         </div>
       </div>
       </div>
@@ -76,7 +75,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/" className="btn btn-light my-3">see more</Link>
+          <a href="/" className="btn btn-light my-3">see more</a>
         </div>
       </div>
       </div>
@@ -96,7 +95,7 @@ import { Link } from 'react-router-dom';
           
           <span className="badge text-bg-danger">Limited Time Deal</span>
           <br />
-          <Link to="/" className="btn btn-light my-3">see more</Link>
+          <a href="/" className="btn btn-light my-3">see more</a>
         </div>
       </div>
 
@@ -114,7 +113,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3">see more</Link>
+          <a href="/"className="btn btn-light my-3">see more</a>
         </div>
       </div>
       </div>
@@ -131,7 +130,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-solid fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/" className="btn btn-light my-3">see more</Link>
+          <a href="/" className="btn btn-light my-3">see more</a>
         </div>
       </div>
       </div>
@@ -152,7 +151,7 @@ import { Link } from 'react-router-dom';
           
           <span className="badge text-bg-danger">Limited Time Deal</span>
           <br />
-          <Link to="/" className="btn btn-light my-3">see more</Link>
+          <a href="/" className="btn btn-light my-3">see more</a>
         </div>
       </div>
      </div>
@@ -170,7 +169,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-solid fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/" className="btn btn-light my-3">see more</Link>
+          <a href="/" className="btn btn-light my-3">see more</a>
         </div>
       </div>
      </div>
@@ -187,7 +186,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-solid fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/" className="btn btn-light my-3">see more</Link>
+          <a href="/" className="btn btn-light my-3">see more</a>
         </div>
       </div>
       
@@ -209,7 +208,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-solid fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>279</big> to rent <br />
           Or available with a Prime membership
@@ -232,7 +231,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>129</big> to rent <br />
           Or available with a Prime membership
@@ -253,7 +252,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-solid fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>274</big> to rent <br />
           Or available with a Prime membership
@@ -275,7 +274,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>229</big> to rent <br />
           Or available with a Prime membership
@@ -298,7 +297,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-solid fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>552</big> to rent <br />
           Or available with a Prime membership
@@ -321,7 +320,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>124</big> to rent <br />
           Or available with a Prime membership
@@ -342,7 +341,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-solid fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>643</big> to rent <br />
           Or available with a Prime membership
@@ -364,7 +363,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>435</big> to rent <br />
           Or available with a Prime membership
@@ -387,7 +386,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-solid fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>531</big> to rent <br />
           Or available with a Prime membership
@@ -410,7 +409,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>421</big> to rent <br />
           Or available with a Prime membership
@@ -431,7 +430,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-solid fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>123</big> to rent <br />
           Or available with a Prime membership
@@ -453,7 +452,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>321</big> to rent <br />
           Or available with a Prime membership
@@ -476,7 +475,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-solid fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>267</big> to rent <br />
           Or available with a Prime membership
@@ -499,7 +498,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>29</big> to rent <br />
           Or available with a Prime membership
@@ -520,7 +519,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-solid fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>27</big> to rent <br />
           Or available with a Prime membership
@@ -542,7 +541,7 @@ import { Link } from 'react-router-dom';
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <i className="fa-regular fa-star" style={{color: "#FFD43B"}}></i>
           <br />
-          <Link to="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</Link>
+          <a href="/"className="btn btn-light my-3" style={{color:'#007185',fontWeight:'bolder'}}>Prime Video</a>
           <p>
            <big> <sup>₹</sup>79</big> to rent <br />
           Or available with a Prime membership
@@ -564,7 +563,7 @@ import { Link } from 'react-router-dom';
           <div className="card" style={{width: "17rem",height:'4rem'}}>
             <div className="card-body"> 
             <i className="fa-solid fa-magnifying-glass"></i>
-              <Link to="/"className="card-link mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime membership</Link>
+              <a href="/"className="card-a mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime membership</a>
               
             </div>
           </div>
@@ -574,7 +573,7 @@ import { Link } from 'react-router-dom';
           <div className="card" style={{width: "19rem",height:'4rem'}}>
             <div className="card-body"> 
             <i className="fa-solid fa-magnifying-glass"></i>
-              <Link to="/"className="card-link mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime subscription offer</Link>
+              <a href="/"className="card-a mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime subscription offer</a>
               
             </div>
           </div>
@@ -584,7 +583,7 @@ import { Link } from 'react-router-dom';
           <div className="card" style={{width: "17rem",height:'4rem'}}>
             <div className="card-body"> 
             <i className="fa-solid fa-magnifying-glass"></i>
-              <Link to="/"className="card-link mx-2" style={{textDecoration:'none',color:'black'}}>prime</Link>
+              <a href="/"className="card-a mx-2" style={{textDecoration:'none',color:'black'}}>prime</a>
               
             </div>
           </div>
@@ -594,7 +593,7 @@ import { Link } from 'react-router-dom';
           <div className="card" style={{width: "17rem",height:'4rem'}}>
             <div className="card-body"> 
             <i className="fa-solid fa-magnifying-glass"></i>
-              <Link to="/"className="card-link mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime video</Link>
+              <a href="/"className="card-a mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime video</a>
               
             </div>
           </div>
@@ -604,7 +603,7 @@ import { Link } from 'react-router-dom';
           <div className="card" style={{width: "17rem",height:'4rem'}}>
             <div className="card-body"> 
             <i className="fa-solid fa-magnifying-glass"></i>
-              <Link to="/"className="card-link mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime movies</Link>
+              <a href="/"className="card-a mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime movies</a>
               
             </div>
           </div>
@@ -614,7 +613,7 @@ import { Link } from 'react-router-dom';
           <div className="card" style={{width: "21rem",height:'4rem'}}>
             <div className="card-body"> 
             <i className="fa-solid fa-magnifying-glass"></i>
-              <Link to="/"className="card-link mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime membership for 1 year</Link>
+              <a href="/"className="card-a mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime membership for 1 year</a>
               
             </div>
           </div>
@@ -635,7 +634,7 @@ import { Link } from 'react-router-dom';
 
         <div className="border border-success p-2 text-center" style={{height:'8rem'}}>{capitalizeFirstLetter("see personalised recomdation")} <br />
         <button type="button" className="btn btn-warning" style={{width:'16rem',fontWeight:'bold'}}>sign in</button>
-        <p style={{fontSize:'15px'}}>{capitalizeFirstLetter("new Customer ?")}<Link className='mx-2' to="/" style={{textDecoration:'none',color:'#007185'}}>{capitalizeFirstLetter("start here")}</Link></p>
+        <p style={{fontSize:'15px'}}>{capitalizeFirstLetter("new Customer ?")}<a className='mx-2' href="/" style={{textDecoration:'none',color:'#007185'}}>{capitalizeFirstLetter("start here")}</a></p>
         </div>
         
       
