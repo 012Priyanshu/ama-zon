@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/ama-zon/static/css/main.7d907872.css",
+    "main.js": "/ama-zon/static/js/main.243d4de2.js",
+    "static/js/453.b20237df.chunk.js": "/ama-zon/static/js/453.b20237df.chunk.js",
+    "static/media/hero.jpg": "/ama-zon/static/media/hero.15955cc2c0d830643153.jpg",
+    "static/media/amazon_logo.png": "/ama-zon/static/media/amazon_logo.5ec6844ddb6d618d8fee.png",
+    "static/media/img17.webp": "/ama-zon/static/media/img17.fa6aac410203f9853dc3.webp",
+    "static/media/img24.webp": "/ama-zon/static/media/img24.e836e4e4815acbb31a3f.webp",
+    "static/media/img18.webp": "/ama-zon/static/media/img18.35384d470104ebf37c66.webp",
+    "static/media/img10.webp": "/ama-zon/static/media/img10.4a0d047f07bd20a57598.webp",
+    "static/media/img14.jpg": "/ama-zon/static/media/img14.4ebefd0fd3e74bef6408.jpg",
+    "static/media/img20.webp": "/ama-zon/static/media/img20.b171aa46641d6d1243d9.webp",
+    "static/media/box7_image.jpg": "/ama-zon/static/media/box7_image.e70baeea25d9ce00f6dc.jpg",
+    "static/media/img19.webp": "/ama-zon/static/media/img19.afb6a5efbb90c90ed0c8.webp",
+    "static/media/box6_image.jpg": "/ama-zon/static/media/box6_image.2ba012bf94fd8ea0b64c.jpg",
+    "static/media/img25.jpg": "/ama-zon/static/media/img25.b7cc0c3525624a9a273f.jpg",
+    "static/media/img9.webp": "/ama-zon/static/media/img9.7da15701dce37279d48b.webp",
+    "static/media/img11.webp": "/ama-zon/static/media/img11.52f6fe3affb4bb3949a7.webp",
+    "static/media/box5_image.jpg": "/ama-zon/static/media/box5_image.1870128f1a9518ad53f3.jpg",
+    "static/media/img21.webp": "/ama-zon/static/media/img21.86de1af1e143651afd0a.webp",
+    "static/media/img12.webp": "/ama-zon/static/media/img12.bb344dda9e3fcfb44d68.webp",
+    "static/media/img23.webp": "/ama-zon/static/media/img23.2277e174c4e99c7465a6.webp",
+    "static/media/img15.jpg": "/ama-zon/static/media/img15.20400b2a48aeedae5c6c.jpg",
+    "static/media/img16.jpg": "/ama-zon/static/media/img16.36bdaa1dd408c101c8fb.jpg",
+    "static/media/box8_image.jpg": "/ama-zon/static/media/box8_image.bbafb3dd7a6a6ed29916.jpg",
+    "static/media/img22.webp": "/ama-zon/static/media/img22.578f306c7362dcb7da88.webp",
+    "static/media/box4_image.jpg": "/ama-zon/static/media/box4_image.34320117541b088734a2.jpg",
+    "static/media/box1_image.jpg": "/ama-zon/static/media/box1_image.670c0c9b0bb020a900f1.jpg",
+    "static/media/img13.webp": "/ama-zon/static/media/img13.f095076a07dde39b7288.webp",
+    "index.html": "/ama-zon/index.html",
+    "main.7d907872.css.map": "/ama-zon/static/css/main.7d907872.css.map",
+    "main.243d4de2.js.map": "/ama-zon/static/js/main.243d4de2.js.map",
+    "453.b20237df.chunk.js.map": "/ama-zon/static/js/453.b20237df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d907872.css",
+    "static/js/main.243d4de2.js"
+  ]
+}
