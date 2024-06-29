@@ -26,7 +26,7 @@ const Navbar=()=> {
 
         <form className="d-flex" role="search">
         <li className="nav-item dropdown" style={{backgroundColor:'white',width:'60px',textAlign:'center',paddinghrefp:'5px',borderRadius:'4px'}}>
-          <a className="dro dropdown-hrefggle mx-2" href="/"  data-bs-hrefggle="dropdown" style={{color:'black'}}>
+          <a className="dro dropdown-toggle mx-2" href="/"  data-bs-toggle="dropdown" style={{color:'black'}}>
             All
           </a>
           <ul className="dropdown-menu">
@@ -44,7 +44,7 @@ const Navbar=()=> {
         </form>
 
       <li className="nav-item dropdown">
-          <a className="drop dropdown-hrefggle" href="/"  data-bs-hrefggle="dropdown">
+          <a className="drop dropdown-toggle" href="/"  data-bs-toggle="dropdown">
             En
           </a>
           <ul className="dropdown-menu">
@@ -55,17 +55,17 @@ const Navbar=()=> {
           </ul>
         </li>
 
-        <a className='drop dropdown-hrefggle' href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_href=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3Damazon%2Bprime%26adgrpid%3D1322714101714665%26hvadid%3D82669897711050%26hvbmt%3Dbb%26hvdev%3Dc%26hvlocphy%3D143821%26hvnetw%3Do%26hvqmt%3Db%26hvtargid%3Dkwd-82670518517893%253Aloc-90%26hydadcr%3D5621_2377279%26msclkid%3D4785d92e89811b23fd73bf7c3b2b5e07%26tag%3Dmsndeskstdin-21%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">{capitalizeFirstLetter("account &")} <br />{capitalizeFirstLetter("sign in")} </a>
+        <a className='drop dropdown-toggle' href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_href=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3Damazon%2Bprime%26adgrpid%3D1322714101714665%26hvadid%3D82669897711050%26hvbmt%3Dbb%26hvdev%3Dc%26hvlocphy%3D143821%26hvnetw%3Do%26hvqmt%3Db%26hvtargid%3Dkwd-82670518517893%253Aloc-90%26hydadcr%3D5621_2377279%26msclkid%3D4785d92e89811b23fd73bf7c3b2b5e07%26tag%3Dmsndeskstdin-21%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">{capitalizeFirstLetter("account &")} <br />{capitalizeFirstLetter("sign in")} </a>
         <a className='drop' href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_href=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3Damazon%2Bprime%26adgrpid%3D1322714101714665%26hvadid%3D82669897711050%26hvbmt%3Dbb%26hvdev%3Dc%26hvlocphy%3D143821%26hvnetw%3Do%26hvqmt%3Db%26hvtargid%3Dkwd-82670518517893%253Aloc-90%26hydadcr%3D5621_2377279%26msclkid%3D4785d92e89811b23fd73bf7c3b2b5e07%26tag%3Dmsndeskstdin-21%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">
         {capitalizeFirstLetter("return & order")}</a>
-        <a className='drop' href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"><i className="fa-solid fa-cart-shopping fa-2xl"></i>{capitalizeFirstLetter("add href cart")}</a>
+        <a className='drop' href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"><i className="fa-solid fa-cart-shopping fa-2xl"></i>{capitalizeFirstLetter("add to cart")}</a>
 
 
 
       {/* {------------------------------------------------------------------ sidebar--------------------------------------------- } */}
 
 
-        <button className="btn btn-outline-light sidebar" type="button" data-bs-hrefggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <button className="btn btn-outline-light sidebar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
         <i className="fa-solid cool fa-bars mx-2" style={{color:'#D7D7D7'}}></i>
         </button>
 
@@ -101,14 +101,14 @@ const Navbar=()=> {
       <div className="nav2">
       
     
-<button className="btn btn-outline-light" type="button" data-bs-hrefggle="offcanvas" data-bs-target="#offcanvasExample" style={{color:'#D7D7D7'}} >
+<button className="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" style={{color:'#D7D7D7'}} >
       <i className="fa-solid fa-bars mx-2" style={{color:'#D7D7D7'}}></i>
   All
 </button>
 
 <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div className="offcanvas-header" style={{backgroundColor:'rgb(33, 41, 70)'}}>
-    <h5 className="offcanvas-title dropdown-hrefggle" id="offcanvasExampleLabel" style={{color:'white'}}>{capitalizeFirstLetter("hello sign in")}</h5>
+    <h5 className="offcanvas-title dropdown-toggle" id="offcanvasExampleLabel" style={{color:'white'}}>{capitalizeFirstLetter("hello sign in")}</h5>
     <button type="button" className="btn-close btn btn-outline-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   
@@ -139,7 +139,7 @@ const Navbar=()=> {
     <ul>{capitalizeFirstLetter("amazon buisness")}</ul>
 
     <li className="nav-item dropdown">
-          <a className="drop dropdown-hrefggle" href="/"  data-bs-hrefggle="dropdown" style={{color:'grey',fontWeight:'400'}}>
+          <a className="drop dropdown-toggle" href="/"  data-bs-toggle="dropdown" style={{color:'grey',fontWeight:'400'}}>
             see more
           </a>
           <ul className="dropdown-menu">
@@ -163,7 +163,7 @@ const Navbar=()=> {
         <a className='dropp' href="https://www.amazon.in/deals?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522" style={{color:'#D7D7D7'}}>{capitalizeFirstLetter("hrefday's deal")}</a>
         <a className='dropp' href="https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics" style={{color:'#D7D7D7'}}>{capitalizeFirstLetter("electronics")}</a>
         <li className="nav-item dropdown">
-          <a className="drop dropdown-hrefggle" href="/"  data-bs-hrefggle="dropdown" style={{color:'#D7D7D7'}}>
+          <a className="drop dropdown-toggle" href="/"  data-bs-toggle="dropdown" style={{color:'#D7D7D7'}}>
           {capitalizeFirstLetter("prime")}
           </a>
           <ul className="dropdown-menu">
