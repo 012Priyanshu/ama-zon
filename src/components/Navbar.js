@@ -160,7 +160,7 @@ const Navbar=()=> {
         <a className='dropp' href="https://www.amazon.in/b/32702023031?node=32702023031&ld=AZINSOANavDeskhrefp_T3&ref_=nav_cs_sell_T3" style={{color:'#D7D7D7'}}>{capitalizeFirstLetter("sell")}</a>
         <a className='dropp' href="https://www.amazon.in/gp/bestsellers/?ref_=nav_cs_bestsellers" style={{color:'#D7D7D7'}}>{capitalizeFirstLetter("best seller")}</a>
         <a className='dropp' href="https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles" style={{color:'#D7D7D7'}}>{capitalizeFirstLetter("mobiles")}</a>
-        <a className='dropp' href="https://www.amazon.in/deals?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522" style={{color:'#D7D7D7'}}>{capitalizeFirstLetter("hrefday's deal")}</a>
+        <a className='dropp' href="https://www.amazon.in/deals?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522" style={{color:'#D7D7D7'}}>{capitalizeFirstLetter("today's deal")}</a>
         <a className='dropp' href="https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics" style={{color:'#D7D7D7'}}>{capitalizeFirstLetter("electronics")}</a>
         <li className="nav-item dropdown">
           <a className="drop dropdown-toggle" href="/"  data-bs-toggle="dropdown" style={{color:'#D7D7D7'}}>
