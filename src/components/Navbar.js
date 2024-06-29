@@ -66,7 +66,7 @@ const Navbar=()=> {
 
 
         <button className="btn btn-outline-light sidebar" type="button" data-bs-hrefggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-        <i className="fa-solid fa-bars mx-2" style={{color:'#D7D7D7'}}></i>
+        <i className="fa-solid cool fa-bars mx-2" style={{color:'#D7D7D7'}}></i>
         </button>
 
 

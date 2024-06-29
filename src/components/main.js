@@ -560,7 +560,7 @@ import img25 from './photos/img25.jpg'
          <h4>Related Search</h4>
            
          <div className="col-md-4">
-          <div className="card" style={{width: "17rem",height:'4rem'}}>
+          <div className="card" style={{width: "100%",height:'4rem'}}>
             <div className="card-body"> 
             <i className="fa-solid fa-magnifying-glass"></i>
               <a href="/"className="card-a mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime membership</a>
@@ -570,7 +570,7 @@ import img25 from './photos/img25.jpg'
          </div>
          <div className="col-md-4">
          
-          <div className="card" style={{width: "19rem",height:'4rem'}}>
+          <div className="card" style={{width: "100%",height:'4rem'}}>
             <div className="card-body"> 
             <i className="fa-solid fa-magnifying-glass"></i>
               <a href="/"className="card-a mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime subscription offer</a>
@@ -580,7 +580,7 @@ import img25 from './photos/img25.jpg'
          </div>
          <div className="col-md-4">
          
-          <div className="card" style={{width: "17rem",height:'4rem'}}>
+          <div className="card" style={{width: "100%",height:'4rem'}}>
             <div className="card-body"> 
             <i className="fa-solid fa-magnifying-glass"></i>
               <a href="/"className="card-a mx-2" style={{textDecoration:'none',color:'black'}}>prime</a>
@@ -590,7 +590,7 @@ import img25 from './photos/img25.jpg'
          </div>
          <div className="col-md-4">
          
-          <div className="card" style={{width: "17rem",height:'4rem'}}>
+          <div className="card" style={{width: "100%",height:'4rem'}}>
             <div className="card-body"> 
             <i className="fa-solid fa-magnifying-glass"></i>
               <a href="/"className="card-a mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime video</a>
@@ -600,7 +600,7 @@ import img25 from './photos/img25.jpg'
          </div>
          <div className="col-md-4">
          
-          <div className="card" style={{width: "17rem",height:'4rem'}}>
+          <div className="card" style={{width: "100%",height:'4rem'}}>
             <div className="card-body"> 
             <i className="fa-solid fa-magnifying-glass"></i>
               <a href="/"className="card-a mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime movies</a>
@@ -610,7 +610,7 @@ import img25 from './photos/img25.jpg'
          </div>
          <div className="col-md-4">
          
-          <div className="card" style={{width: "21rem",height:'4rem'}}>
+          <div className="card emoji" style={{width: "100%",height:'4rem'}}>
             <div className="card-body"> 
             <i className="fa-solid fa-magnifying-glass"></i>
               <a href="/"className="card-a mx-2" style={{textDecoration:'none',color:'black'}}>amazon prime membership for 1 year</a>

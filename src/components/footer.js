@@ -18,7 +18,7 @@ const footer=()=> {
     </div>
 
     <div className="foot2" style={{height:'100%',width:'100%',backgroundColor:'#232F3E'}}>
-    <div className="list" style={{display:'flex',justifyContent:'space-evenly',color:'#FFFFFF',paddingTop:'3rem',paddingBottom:'2rem',borderBottom:'1px solid grey'}}>
+    <div className="list" style={{justifyContent:'space-evenly',color:'#FFFFFF',paddingTop:'3rem',paddingBottom:'2rem',borderBottom:'1px solid grey'}}>
         <ul style={{listStyleType:'none'}}> <h5>{capitalizeFirstLetter("get to know us")}</h5>
             <li style={{paddingTop:'10px'}}><a href="/" style={{textDecoration:'none',color:'#D7D7D7'}}>{capitalizeFirstLetter("About Us")}</a></li>
             <li style={{paddingTop:'10px'}}><a href="/" style={{textDecoration:'none',color:'#D7D7D7'}}>{capitalizeFirstLetter("Careers")}</a></li>

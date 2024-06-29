@@ -93,6 +93,13 @@
     display:none;
 }
 
+@media (max-width:2000px)
+{
+    .list
+    {
+        display: flex;
+    }
+}
 
 @media (max-width:1300px)
 {
@@ -105,6 +112,8 @@
     {
         padding-left: 150px;
     }
+
+   
 
     form .input
     {
@@ -140,27 +149,25 @@
     .headImg {
         height: 188px;
     }
+    .list
+    {
+        display: flex;
+    }
 
     .col-md-3 {
         flex: 0 0 auto;
         width: 50%;
     }
-    .list
-    {
-        display: flex;
-        justify-content: center;
-    }
+    
 }
+
 
 @media (max-width:700px)
 {
     .nav {
         padding-left: 46px;
     }
-}
 
-@media (max-width:700px)
-{
     .nav-item {
        display: none;
     }
@@ -178,15 +185,73 @@
         
         display: contents;
     }
-    .list
-    {
+    .list{
         display: block;
     }
-    .border
-    {
-        width: 500px;
-        height: 8rem;
     
+    .border {
+        width: 100%;
+        height: 8rem;
     }
     
+}
+
+@media (max-width:480px)
+{
+    .d-flex {
+        width: 325px;
+    }
+    .nav {
+        padding-left: 17px;
+    }
+
+    form .input {
+        width: 221px;
+    }
+
+    .nav2 {
+        display: flow-root;
+        height: 69px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .dropp 
+    {
+        padding-left: 26px;  
+    }
+    .headImg {
+        height: 103px;
+    }
+    .list
+    
+       
+        .border {
+            width: 350px;
+            height: 8rem;
+        }
+        .card
+        {
+            width: 100%;
+            
+        }
+    
+}
+
+@media (max-width:355px)
+{
+    .cool
+    {
+        color: rgb(215, 215, 215);
+        display: none;
+        
+    }
+    .d-flex {
+       
+        padding-top: 12px;
+    }
+    .terms p
+    {
+        padding-top: 22px;
+    }
 }
